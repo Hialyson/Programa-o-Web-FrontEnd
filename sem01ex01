@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <meta charset="utf - 8">
+        <title>Minha Página</title>
+        <style>
+            body {
+                background-color: rgba(141, 164, 233, 0.726);
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                border-width: 2px;
+                border-style: solid;
+                width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: auto;
+             
+            }
+            img {
+                width: 20rem;
+                border-radius: 100%;   
+            }
+            h1{
+                color: rgb(5, 5, 5);
+                font-size: size 3rem;
+                font-weight: 300;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: auto;
+                
+            }
+            h2{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                padding: auto;
+            }
+            p { 
+                text-align: center;
+                font-size: 100%;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            h3 {
+                border-bottom-color: black;
+
+            }
+        </style>
+        <body>
+            
+            <img
+            src = "Imagem teste.jpg"
+            alt = "Fotografia"      
+            />
+            <h1>Olá, sejam bem-vindos à minha página!</h1>
+            <h2> Bem, esse sou eu!</h2>
+            
+            <p>
+                Sou Hialyson Fernandes, sou Físico/Matemático, Flamenguista e muito nerd! <br
+                Curioso desde sempre, busco nos livros respostas para perguntas que ficam sem resposta:<br/>
+                <strong>qual o sentido da vida, o universo e tudo mais?…</strong><br/>
+                pegaram a referência??? 
+            </p>
+            <p>
+                Palavras cruzadas e desafios de lógicas são atividades no meu cotidiano.<br/>
+                Músicas antigas e filmes clássicos fazem parte do meu catálogo preferido,<br/> assim como os filmes de ficção científicas.<br/>
+            </p>
+            <h3> Esses são alguns dos meus filmes preferidos</h3>
+            <ul type ="circle"> 
+                <li>O Poderoso Chefão</li>
+                <li>Rocky: um lutador</li>
+                <li> Star Wars: O império contra ataca</li>
+                <li> 2001: Uma odisséia no espaço</li>
+            </ul>
+            <p>
+               Sou apaixonado por música! Pra mim, tudo que é de 1990 pra trás merece ser ouvido com atenção.<br/>
+                Desde a genialidade do Freddy Mercury, os solos de guitarra do Angus, Hendrix e Jack Sonni e<br as performaces do Iron Maiden<br/>
+            </p> 
+            <h3>Algumas das minhas músicas preferidas</h3>
+            <dl>
+                <dt><strong>Back in Black</strong></dt>
+                <dd><a href="https://www.youtube.com/watch?v=pAgnJDJN4VA">AC/DC - Back In Black (Official Video)</a></dd>
+                <dt><strong>Sultans Of Swing</strong></dt>
+                <dd><a href="https://www.youtube.com/watch?v=h0ffIJ7ZO4U">Dire Straits - Sultans Of Swing</a></dd>
+                <dt><strong>Somebody To Love</strong></dt>
+                <dd><a href="https://www.youtube.com/watch?v=kijpcUv-b8M">Queen - Somebody To Love (Official Video)</a></dd>
+                <dt><strong>Imigrantes Songs</strong></dt>
+                <dd><a href="https://www.youtube.com/watch?v=RlNhD0oS5pk">Led Zeppelin - Immigrant Song (Live 1972) (Official Video)</a></dd>
+            </dl>
+            <p> Entre muitas outras... <br/></p>
+            <p>E nas caricaturas, em que rabisco nas horas vagas, é onde eu apresento com bom humor, minha visão das pessoas.<br/></p>
+            <h3> Alguns dos meus rabiscos</h3>
+            <dl>
+                <dt>
+                    <img 
+                    src="Freddie Mercury.jpg"
+                    alt="Desenho do Freddy Mercury. Autor: Hialyson fernandes"/></dt>
+                <dd><strong>Freddie Mercury</strong></dd>
+                <dt>
+                    <img
+                    src="Amy.jpg"
+                    alt="Caricatura da Amy Whinehouse. Autor: Hialyson Fernandes"/>
+                </dt>
+                <dd><strong>Amy Whinehouse</strong></dd>
+                <dt>
+                    <img
+                    src="Seu Peru.jpg"
+                    alt="Caricatura do Seu Peru. Autor: Hialyson Fernandes"/>
+                </dt>
+                <dd><strong>Seu Peru - Orlando Drummond</strong></dd>
+                <dt>
+                    <img
+                    src="Montenegro.jpg"
+                    alt="Caricatura da Fernanda Montenegro"/>
+                </dt>
+                <dd><strong> Fernanda Montenegro</strong></dd>
+
+            </dl>
+        </body>
+    </head>
+</html>
